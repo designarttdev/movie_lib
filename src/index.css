@@ -1,0 +1,35 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --color-primary: #f7d354;
+  --color-secondary: #b8930c;
+  --color-white: #fff;
+  --color-bg: #111;
+  --color-bg-secodary: #121212;
+
+  --transition: 0.5s;
+}
+
+body {
+  background-color: #000;
+  color: var(--color-white);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+button {
+  cursor: pointer;
+}
